@@ -1,0 +1,34 @@
+{
+  "Status": "PASS",
+  "Tests": [
+    {
+      "Test": "install, repeat, exact uninstall, previous source restoration, keep PCB",
+      "Status": "PASS"
+    },
+    {
+      "Test": "UTF16 BOM and Unicode; preserve later unrelated edit",
+      "Status": "PASS"
+    },
+    {
+      "Test": "local source edit and owned-menu edit refuse before mutation",
+      "Status": "PASS"
+    },
+    {
+      "Test": "malformed marker refused without writes",
+      "Status": "PASS"
+    },
+    {
+      "Test": "readonly profile refusal before source writes",
+      "Status": "PASS"
+    },
+    {
+      "Test": "payload integrity refusal before writes",
+      "Status": "PASS"
+    },
+    {
+      "Test": "initially missing DXP.RCS created; own content removed",
+      "Status": "PASS"
+    }
+  ],
+  "Platform": "5.1.26100.9818"
+}

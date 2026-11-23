@@ -1,0 +1,11 @@
+name: Release payload checks
+on: [push, pull_request]
+jobs:
+  payload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify tested files and synthetic snapshots
+        run: python3 tools/check_release.py
+      - name: Build installer ZIP
+        run: python3 tools/build_release.py

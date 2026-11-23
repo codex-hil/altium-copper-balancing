@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+dist/
+install-state.json
+backups/
+*.cbal-manifest*
+*.cbal-last-run.txt
+*.cbal-stage.txt
+*.cbal-*.tmp

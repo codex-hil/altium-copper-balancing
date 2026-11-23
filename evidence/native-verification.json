@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "generated": {
+    "1": 108,
+    "2": 108,
+    "3": 108,
+    "32": 108
+  },
+  "regenerated": {
+    "2": 108
+  },
+  "removed": 0,
+  "negative_planes": 0,
+  "net_assignment": "all None",
+  "original_modeled_objects": "preserved; board DATE/TIME/FILENAME, viewport and UsedByPrims caches excluded",
+  "sha256": {
+    "TestBoard.PcbDoc": "ad8417267b18a9d3c9367bb87605c70e3fff639df313ec5cbea132c62df39cb9",
+    "Native-generated.PcbDoc": "a3af36c1c5dc28be1b45813ecf91a09457ab4605fa7b7840940cb0627180eb6b",
+    "Native-regenerated.PcbDoc": "fda264f4e9e7f4ac53bd0a9ed9e50688abfdf0039c4b3adeb1709613613207b2",
+    "Native-removed.PcbDoc": "4e2261f94dcf39c44d208e8ab9ce94a1cd15bf3b725d75c7f8bba3edc4c63215"
+  }
+}

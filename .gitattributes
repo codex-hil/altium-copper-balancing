@@ -1,0 +1,8 @@
+* text=auto
+*.PcbDoc binary
+*.png binary
+Install.cmd -text
+Uninstall.cmd -text
+install.ps1 -text
+source/CopperBalancing.pas -text
+source/CopperBalancing.PrjScr -text
